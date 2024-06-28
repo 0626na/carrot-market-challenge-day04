@@ -1,0 +1,46 @@
+.home {
+  color: white;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 12px;
+}
+
+.home a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  border-radius: 6px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.pictureContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.profile {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  font-size: large;
+  font-weight: bold;
+}
+
+.description {
+  font-size: small;
+}
